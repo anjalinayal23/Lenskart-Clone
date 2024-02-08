@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.fnav input{
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid grey;
+    margin-top: 16px;
+}                                      
+.fnav p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(218, 213, 213);
+    font-weight: 800;
+}
+.snav p:hover{
+    border-bottom: 2px solid rgb(13, 13, 46);
+    color: rgb(13, 13, 46);
+    cursor: pointer;
+}
+.snav img{
+    width: 5%;
+}
+.lens{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(255, 250, 250);
+    padding: 11px;
+}
+.lens img{
+    width: 15%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.main img{
+    width: 100%;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.cart .card{
+    text-align: center;
+}
+.card button{
+    width: 100px;
+    height: 33px;
+    color:white;
+    background-color: rgb(52, 180, 180);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 16px;
+}
+.cart .card img{
+    width: 70%;
+}
+.banner h2{
+    text-align: center;
+    padding: 22px;
+}
+.banner .img img{
+    width: 100%;
+}
+.banner .t-img img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 50px;
+}
+/* .goagle1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+} */
+.goagle1 .img{
+    /* margin: 150px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 160px 80px 130px;
+}
+.anjali{
+    margin:30px 30px 30px 30px;
+}
+.goagle1 h2{
+    text-align: center;
+}
+.himmu{
+    margin:30px 30px 30px 30px;
+
+}
+.main-img img{
+    width: 100%;
+}
+.goagle2 h2{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 84);
+    color: white;
+    padding: 48px;
+}
+/* .footer .list ul{
+    /* list-style: none; */
+    /* padding: 10px;
+    display: flex; */
+/* } */
+.list{
+    justify-content: space-between;
+}
+ .list li{
+    margin: 20px;
+    justify-content: flex-start;
+    margin-left: 5px;
+    /* list-style: none; */
+    
+}
+/* .li-img{
+    justify-content: space-between;
+    list-style: none;
+} */
+
+
+/* -----media queries----- */
+@media(max-width:370px){
+     .fnav{
+        display: flex;
+    } 
+    /* .fnav .lenskart{ 
+        height: 40px;
+        width: 150px;
+        margin-top: 10px;
+        /* justify-content: center; */
+        /* display: flex;
+        align-items: center; */
+        /* display: none; */
+
+    .fnav input{
+        display: none;
+    }
+    .fnav p{
+        display: none;
+    }
+    .fnav .phone-num{
+        height: 30px;
+        width: 90px;
+        /* justify-content: center */
+        margin-top: 20px;
+        margin-right: 100px;
+
+    }
+    .fnav .place{
+        width: 100px;
+        height: 25px;
+        margin-left: 3px;
+        margin-top: 20px;
+
+    }
+    .fnav p{
+        /* display: none; */
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    /* .snav{
+        /* display: flex; */
+        /* overflow-x: auto; */
+    /* } */ 
+    nav.snav{
+        width: 368px;
+        height: 40px;
+    }
+    .snav img{
+        display: none;
+    }
+    .snav p{
+        font-size: 7px;
+        padding: 2px;
+    } 
+
+    .cart .card img{
+        width: 40%;
+        overflow: scroll;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .banner h2{
+        width: 350px;
+    }
+    
+    
+    .footer h2{
+        font-size: 10px;
+    }
+    .cart .card button{
+        height: 30px;
+        width: 80px;
+    }
+
+
+}
+
+@media(max-width:768px){
+    .fnav p{
+        display: none;
+    }
+    .snav img{
+        display: none;
+    }
+} 
